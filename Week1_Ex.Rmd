@@ -1,0 +1,33 @@
+---
+title: "Ex1_RMD"
+author: "Huixin Jin"
+date: "2020年9月20日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week1 Excercise
+
+
+####First we generate samples containing 100 values for log-normal distribution (meanlog = 1, sdlog = 0.25)
+```{r cars}
+a = rlnorm(100, meanlog = 1, sdlog = .25)
+a
+```
+
+####Then we show some characters of our sample.
+```{r}
+summary(a)
+sd(a)
+```
+Its mean is 2.776 and standard variance is 0.6677292.  
+
+####Finally we plot its distribution and log scale distribution.
+```{r pressure, echo=FALSE}
+par(mfcol = c(1,2))
+hist(a,breaks = seq(1,6,0.2))
+hist(log(a),breaks = seq(0,2,0.2))
+```
