@@ -1,7 +1,7 @@
 ## Readme
 
-This is a short readme file for my first repository. 
-###The first part is Git markdown parctice.
+This is a short readme file for my first repository.   
+### The first part is Git markdown parctice.
 As I followed a tutorial, it helped me upload an icecream picture.![icecream picture](https://github.com/HuixinJin/StatisticalAnalysis/blob/master/icecream.JPG)
 Or you can click [here](https://github.com/HuixinJin/StatisticalAnalysis/blob/master/icecream.JPG) to see its source.
 
@@ -13,5 +13,5 @@ Or you can click [here](https://github.com/HuixinJin/StatisticalAnalysis/blob/ma
 >* 6 large egg yolks
 >* Your choice of flavoring
 
-###The second part is R practice.
+### The second part is R practice.
 I upload exercise files including rmd and html files.
